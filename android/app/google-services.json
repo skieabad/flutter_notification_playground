@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827229785256",
+    "project_id": "flutternotificationplayground",
+    "storage_bucket": "flutternotificationplayground.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827229785256:android:f367b4f2292e346cee869d",
+        "android_client_info": {
+          "package_name": "com.example.flutter_notification_playground"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZELZZbeKd5aJeWOfcbRucn6hPl11eC7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
