@@ -12,9 +12,11 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         title: const Text('Flutter Notification Playground'),
       ),
-      body: const Center(
-        child: Text(
-          'You have pushed the button this many times:',
+      body: const SafeArea(
+        child: Center(
+          child: Text(
+            'Welcome to the Flutter Notification Playground!',
+          ),
         ),
       ),
     );
