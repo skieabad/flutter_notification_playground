@@ -2,7 +2,7 @@ import 'dart:developer';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:flutter_notification_playground/dashboard_page.dart';
+import 'package:flutter_notification_playground/pages/dashboard_page.dart';
 import 'package:flutter_notification_playground/main.dart';
 
 @pragma('vm:entry-point')
