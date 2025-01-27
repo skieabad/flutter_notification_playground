@@ -22,9 +22,11 @@ class NotificationService {
   Future<void> initialize() async {
     FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
-    await _requestPermission();
-    await setupNotifications();
-    await _setupMessageHandlers();
+    await Future.any([
+      _requestPermission(),
+      setupNotifications(),
+      _setupMessageHandlers(),
+    ]);
 
     final token = await _messaging.getToken();
     log('Firebase messaging token:=== $token');
